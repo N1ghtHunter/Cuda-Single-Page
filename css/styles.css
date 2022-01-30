@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.7rem;
+  width: 65%;
+  font-weight: 700;
+  margin: 0 auto;
+}
+h2{
+  font-weight: bold;
+  margin: 10px auto;
+}
+h3 {
+  width: 45%;
+  margin: 10px auto;
+  font-weight: 400;
+}
+h4{
+  color: #30bae7;
+    margin: 5px auto;
+    font-weight: 300;
+}
+
+hr {
+  width: 5%;
+  height: 4px;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.149;
+  margin: 16px auto;
+  border-style: none;
+}
+ul{
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;}
+
+  input{
+    color: #ffffff;
+    background-color: #273a71;
+    border-radius: 4px;
+    border-style: none;
+    padding: 12px;
+    display: inline-block;
+    margin: 16px;
+      font-family: 'Titillium Web', sans-serif;
+  }
+
+  textarea {
+    color: #ffffff;
+    width: 52%;
+    height: 150px;
+    padding: 12px 20px;
+    border-style: none;
+    border-radius: 4px;
+    background-color: #273a71;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+
+footer{
+  background-color: #344b8e;
+}
+.header_welcome {
+  padding: 100px;
+}
+
+.top-container {
+  color: #ffffff;
+  padding: 50px 80px 200px 50px;
+  background-color: #87509c;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #87509c;
+  padding-right: 20px;
+}
+
+.topnav a {
+  float: right;
+  text-align: center;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 4px 16px;
+  border-radius: 8px;
+}
+
+.topnav a:hover {
+  background-color: #663366;
+}
+
+.topnav a.active {
+  background-color: #663366;
+}
+
+.topnav img {
+  position: absolute;
+  left: 150px;
+}
+
+.btn_top {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 5px 1px #cc6633;
+  -moz-box-shadow: 0 5px 1px #cc6633;
+  box-shadow: 0 5px 1px #cc6633;
+  font-family: 'Titillium Web', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  background: #eb7d4b;
+  padding: 20px 40px 20px 40px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn_top:hover {
+  background: #FFAB76;
+  text-decoration: none;
+}
+
+.services-container {
+  padding: 80px;
+  background-color: #17c2a4;
+  color: #ffffff;
+}
+
+.flex {
+  margin: 100px auto 20px auto;
+  display: flex;
+
+}
+
+.flex p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.flex-child {
+  flex: 1;
+  margin: 0 30px;
+  padding: 0 50px;
+}
+.team{
+  padding: 80px;
+  background-color: #e7f1f8;
+  color: #3c4761;
+}
+.skills{
+  padding: 80px;
+  background-color: #ffffff;
+  color: #393939;
+}
+.portfolio{
+  padding: 80px 80px 250px 80px;
+  background: #ffdd99;
+  color: #393939;
+}
+.portfolio-nav {
+  overflow: hidden;
+  font-size: 18px;
+  padding: 5px;
+  margin: 40px;
+}
+.portfolio-nav a {
+  text-align: center;
+  color: #393939;
+  background-color: #ebc985;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px;
+  padding: 20px 16px;
+  border-radius: 18px;
+
+}
+.portfolio-nav a:hover {
+  background-color: #ffffff;
+}
+.portfolio-nav a.active {
+  background-color: #ffffff;
+}
+.laptop-img{
+  width: 600px
+}
+.btn-portfolio {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 5px 1px #0f9d84;
+  -moz-box-shadow: 0 5px 1px #0f9d84;
+  box-shadow: 0 5px 1px #0f9d84;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  background: #17c2a4;
+  padding: 20px 40px 20px 40px;
+  text-decoration: none;
+  position: relative;
+  top: 100px;
+}
+
+.btn-portfolio:hover {
+  background: #95d5cf;
+  text-decoration: none;
+}
+.contact-a{
+  margin: 0 8px;
+
+}
+.contact-li{
+  display: inline-block;
+  padding: 0;
+
+}
+.contact-img{
+  width: 34px;
+}
+
+
+.flex-contact{
+  display: flex;
+}
+.Testimonials{
+  padding: 80px;
+  background-color: #d74680;
+  color: #ffffff;
+}
+.people-img{
+  float: left;
+  padding: 70px 40px;
+}
+.Testimonials p{
+  padding-top: 70px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: left;
+  font-size: 21px;
+  width: 60%;
+}
+.people-name{
+  text-align: left;
+  padding-top: 25px;
+  margin: 0;
+}
+.people-job{
+  text-align: left;
+  margin: 0;
+  color: #fac996;
+}
+.get-in-touch{
+  padding: 80px;
+  background-color: #3c5499;
+  color: #ffffff;
+
+}
+.contact-info{
+  width: 60%;
+  margin: 50px auto;
+
+}
+
+.submit-btn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 5px 0 #299ec5;
+  -moz-box-shadow: 0 5px 0 #299ec5;
+  box-shadow: 0 5px 0 #299ec5;
+  color: #ffffff;
+  font-size: 16px;
+  background: #30bae7;
+  padding: 15px 60px 15px 60px;
+  text-decoration: none;
+}
+
+.submit-btn:hover {
+  background: #76d7f7;
+  text-decoration: none;
+}
+.footer-container{
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-container a{
+  color: #ffffff;
+  text-decoration: none;
+  padding: 30px 10px;
+  font-weight: 600;
+}
+.footer-container a:hover{
+  color: #30bae7;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 10px 0;
+  margin: 0;
+}
