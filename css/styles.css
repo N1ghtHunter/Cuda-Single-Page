@@ -71,7 +71,7 @@ footer{
 
 .top-container {
   color: #ffffff;
-  padding: 50px 0px 200px 0px;
+  padding: 50px 0 200px 0;
   background-color: #87509c;
 }
 
@@ -129,12 +129,12 @@ footer{
   padding: 80px 0;
   background-color: #17c2a4;
   color: #ffffff;
+  width: auto;
 }
 
 .flex {
   margin: 100px auto 20px auto;
   display: flex;
-   padding: auto 80px;
 }
 
 .flex p {
@@ -155,7 +155,7 @@ footer{
   color: #3c4761;
 }
 .skills{
-  padding: 80px;
+  padding: 80px 0;
   background-color: #ffffff;
   color: #393939;
 }
@@ -307,4 +307,7 @@ footer{
   font-size: 0.75rem;
   padding: 10px 0;
   margin: 0;
+}
+.sections{
+  width: auto;
 }
