@@ -71,14 +71,14 @@ footer{
 
 .top-container {
   color: #ffffff;
-  padding: 50px 80px 200px 50px;
+  padding: 50px 0px 200px 0px;
   background-color: #87509c;
 }
 
 .topnav {
   overflow: hidden;
   background-color: #87509c;
-  padding-right: 20px;
+  padding-right: 100px;
 }
 
 .topnav a {
@@ -126,7 +126,7 @@ footer{
 }
 
 .services-container {
-  padding: 80px;
+  padding: 80px 0;
   background-color: #17c2a4;
   color: #ffffff;
 }
@@ -134,7 +134,7 @@ footer{
 .flex {
   margin: 100px auto 20px auto;
   display: flex;
-
+   padding: auto 80px;
 }
 
 .flex p {
@@ -150,7 +150,7 @@ footer{
   padding: 0 50px;
 }
 .team{
-  padding: 80px;
+  padding: 80px 0;
   background-color: #e7f1f8;
   color: #3c4761;
 }
@@ -160,7 +160,7 @@ footer{
   color: #393939;
 }
 .portfolio{
-  padding: 80px 80px 250px 80px;
+  padding: 80px 0 250px 0;
   background: #ffdd99;
   color: #393939;
 }
@@ -230,13 +230,14 @@ footer{
   display: flex;
 }
 .Testimonials{
-  padding: 80px;
+  padding: 80px 0;
   background-color: #d74680;
   color: #ffffff;
 }
 .people-img{
   float: left;
   padding: 70px 40px;
+  display: inline-block;
 }
 .Testimonials p{
   padding-top: 70px;
@@ -257,7 +258,7 @@ footer{
   color: #fac996;
 }
 .get-in-touch{
-  padding: 80px;
+  padding: 80px 0;
   background-color: #3c5499;
   color: #ffffff;
 
